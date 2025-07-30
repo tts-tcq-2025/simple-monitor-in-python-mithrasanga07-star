@@ -1,6 +1,6 @@
 
 def check_in_range(value, lower, upper, message):
-    if not (lower <= value <= upper):
+    if not (lower < value < upper):
         print(f'{message} is out of range!')
         return False
     return True
